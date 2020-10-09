@@ -1,0 +1,1 @@
+<?phpdefine('DBHOST', 'nguyenvanty2020.000webhostapp.com');define('DBUSER', 'id13697991_nguyenvanty');define('DBPASS', 'be4EYC4vi@LcIo1i');define('DBNAME', 'id13697991_nguyenvanty');$db = mysqli_connect(DBHOST,DBUSER,DBPASS,DBNAME);if (!$db){	die("Connection Failed: ". mysqli_connect_error());} ?>
